@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* common */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  padding: 80px 0 45px 0;
+}
+/* header */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 120px;
+}
+.header-links {
+  padding-top: 30px;
+}
+.header-links a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 34px;
+}
+/* main */
+main {
+  padding: 15px 120px;
+}
+/* banner */
+.banner-content {
+  display: flex;
+}
+.banner-info h1 {
+  font-size: 52px;
+}
+.banner-info button {
+  padding: 15px 30px;
+  background-color: #e02c6d;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  margin-top: 16px;
+}
+/* brand */
+.brand-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  flex-wrap: wrap;
+}
+/* collection */
+.collection-heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.collection-content {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.collection-content-single {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 5px;
+}
+.collection-content-img {
+  width: 100%;
+}
+.collection-content-price {
+  font-size: 24px;
+  margin: 16px 0;
+}
+.fa-star {
+  color: #fb8200;
+}
+.collection-rating,
+.collection-desc {
+  margin: 0;
+}
+.collection-content-button {
+  text-align: right;
+  padding: 20px;
+}
+.collection-content-button a {
+  text-decoration: none;
+  color: #e02c6d;
+  font-weight: 700;
+}
+/* feature */
+.feature-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.feature-info h1 {
+  font-size: 34px;
+}
+.feature-info button {
+  color: #fff;
+  background-color: #e02c6d;
+  border: none;
+  padding: 15px 30px;
+}
+.collection-desc,
+.feature-info p {
+  color: #787885;
+}
+/* footer */
+footer {
+  background: #0a0826;
+  color: #fff;
+}
+.footer-content {
+  text-align: center;
+  padding: 25px 0;
+}
+.social-icons span {
+  margin-right: 15px;
+  font-size: 20px;
+}
